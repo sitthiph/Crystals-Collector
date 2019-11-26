@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>Crystals Collector</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="jumbotron">
+    <h1 class="display-4 font-weight-bolder text-center">Welcome to the Crystals Collector</h1>
+    <hr class="my-4">
+    <p class="text-center">
+        You will be given a random number at the start of the game.<br>
+        There are four crystals below. Clicking on a crystal will add a specific amount of points to your total user score.<br>
+        You win the game by matching your total user score to the game score, you lose the game if your total score goes above the game score.<br>
+        The value of each crystal is hidden.<br>
+        Each time the game starts, the game will change the values of each crystal and game score.<br>
+    </p>
+</div>
+<div class="container">
+    <!--Game score, win/lost display row-->
+    <div class="row mb-5">
+        <div class="col-md-4 text-center font-weight-bold" id="game-score">
+            Game Score: 0
+        </div>
+        <div class="col-md-4 text-center font-weight-bold" id="message">
+            Press on any of the crystals to start the game
+        </div>
+        <div class="col-md-4 text-center font-weight-bold" id="win-lose">
+            Wins: 0 Losses: 0
+        </div>
+    </div>
+    <!--Image display row-->
+    <div class="row">
+        <div class="col-md-3 box text-center">
+            <img src="assets/images/diamond.png" alt="diamond picture" id="diamond">
+        </div>
+        <div class="col-md-3 box text-center">
+            <img src="assets/images/emerald.png" alt="emerald picture" id="emerald">
+        </div>
+        <div class="col-md-3 box text-center">
+            <img src="assets/images/gold.png" alt="gold picture" id="gold">
+        </div>
+        <div class="col-md-3 box text-center">
+            <img src="assets/images/redstone.png" alt="redstone picture" id="redstone">
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+</html>
