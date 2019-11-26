@@ -1,4 +1,4 @@
-![Crystals Collector](https://ibb.co/jDMD5b3)
+![Crystals Collector](https://i.ibb.co/PghgYF1/Untitled.png)
 # Crystals Collector
 Play Word Guess Game [here](https://sitthiph.github.io/Crystals-Collector/).
 
