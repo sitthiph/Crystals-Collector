@@ -83,6 +83,7 @@ $(document).ready(function() {
         else
             messageUpdate()
     }
+    // Update game Messages
     function messageUpdate() {
         $("#message").text("You\'re " + (gameScore - currentScore) + " points away");
     }
